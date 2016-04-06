@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodeRoomRepo/webpackExp.git"
+    "url": "https://github.com/adityaghosh1987/webpack-setup.git"
   },
   "keywords": [
     "npm",
@@ -21,11 +21,11 @@
     "setup"
   ],
   "author": "Aditya Ghosh",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CodeRoomRepo/webpackExp/issues"
+    "url": "https://github.com/adityaghosh1987/webpack-setup/issues"
   },
-  "homepage": "https://github.com/CodeRoomRepo/webpackExp#readme",
+  "homepage": "https://github.com/adityaghosh1987/webpack-setup#readme",
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
     "babel-loader": "^6.2.2",
