@@ -1,0 +1,58 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "web application",
+  "main": "development/app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base development/ --hot",
+    "prod": "webpack-dev-server --content-base production/ --hot",
+    "build": "set NODE_ENV=production&& webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeRoomRepo/webpackExp.git"
+  },
+  "keywords": [
+    "npm",
+    "project",
+    "setup",
+    "webpack+angular+project",
+    "setup"
+  ],
+  "author": "Aditya Ghosh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeRoomRepo/webpackExp/issues"
+  },
+  "homepage": "https://github.com/CodeRoomRepo/webpackExp#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "clean-webpack-plugin": "^0.1.8",
+    "copy-webpack-plugin": "^1.1.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.0",
+    "html-webpack-plugin": "^2.8.1",
+    "html-webpack-template": "^4.0.0",
+    "jshint-loader": "^0.8.3",
+    "ng-annotate-loader": "^0.1.0",
+    "node-sass": "^3.4.2",
+    "postcss": "^5.0.18",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.13",
+    "webpack-merge": "^0.7.3"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18",
+    "html-loader": "^0.4.2",
+    "jshint": "^2.9.1",
+    "postcss": "^5.0.18"
+  }
+}
