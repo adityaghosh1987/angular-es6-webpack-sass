@@ -1,4 +1,4 @@
-# webpack-setup
+# angular-es6-webpack-sass
 webpack + angular + es6 + sass
 
 ## How to use
